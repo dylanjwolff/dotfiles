@@ -16,7 +16,6 @@ set encoding=utf-8
 set list listchars=tab:»\ ,trail:·
 
 syntax enable
-colorscheme darkblack
 set number
 set shell=/bin/bash
 set backupcopy=yes
@@ -59,7 +58,6 @@ let g:ale_fix_on_save = 1
 Plugin 'ruanyl/vim-fixmyjs'
 au BufWritePre *.js :Fixmyjs
 au BufWritePre *.jsx :Fixmyjs
-Plugin 'flazz/vim-colorschemes'
 
 
 
