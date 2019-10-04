@@ -1,6 +1,8 @@
 # dotfiles
 
-Contains configuration for my general setup of i3-gaps and vim
+Current setup:
 
-## Additional things to install
-feh for desktop background
+Use pywal for colorschemes
+Reference colors from this in nearly default Manjaro i3 config
+Use the genzathurarc script to get a PDF viewer
+rofi automagically uses the correct colors
