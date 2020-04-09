@@ -51,6 +51,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'majutsushi/tagbar'
 Plugin 'ludovicchabant/vim-gutentags'
 Plugin 'w0rp/ale'
+Plugin 'unblevable/quick-scope'
 let g:ale_fixers = {
 \   'javascript': ['eslint'],
 \}
