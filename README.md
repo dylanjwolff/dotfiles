@@ -6,3 +6,5 @@ Use pywal for colorschemes
 Reference colors from this in nearly default Manjaro i3 config
 Use the genzathurarc script to get a PDF viewer
 rofi automagically uses the correct colors
+
+Remap capslock to escape using xmodmap and xev
