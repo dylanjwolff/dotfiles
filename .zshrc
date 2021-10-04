@@ -8,10 +8,6 @@ setopt extendedglob
 bindkey -v
 # End of lines configured by zsh-newuser-install
 
-# Powerline config... packages are powerline and powerline-fonts from pacman
-powerline-daemon -q
-. /usr/lib/python3.7/site-packages/powerline/bindings/zsh/powerline.zsh
-
 # Antigen configuration
 source antigen.zsh
 
@@ -37,6 +33,4 @@ antigen theme simple
 # Tell Antigen that you're done.
 antigen apply
 
-# opam configuration
-test -r /home/dylan/.opam/opam-init/init.zsh && . /home/dylan/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
-export PATH="/home/dylan/.local/bin:$PATH"
+setxkbmap -option caps:escape
