@@ -47,19 +47,11 @@ set omnifunc=syntaxcomplete#Complete
 Plugin 'ajh17/vimcompletesme'
 let b:vcm_tab_complete = "omni"
 Plugin 'junegunn/fzf'
-Plugin 'junegunn/fzf.vim'
-Plugin 'scrooloose/nerdtree'
 Plugin 'majutsushi/tagbar'
 Plugin 'ludovicchabant/vim-gutentags'
 Plugin 'w0rp/ale'
 Plugin 'unblevable/quick-scope'
-let g:ale_fixers = {
-\   'javascript': ['eslint'],
-\}
 let g:ale_fix_on_save = 1
-Plugin 'ruanyl/vim-fixmyjs'
-au BufWritePre *.js :Fixmyjs
-au BufWritePre *.jsx :Fixmyjs
 
 
 
