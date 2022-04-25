@@ -1,6 +1,6 @@
 !#/bin/bash
 set -e
-sudo apt install -y git vim zsh curl exuberant-ctags tmux python3 zathura python3-pip openssh-server clang fail2ban mosh
+sudo apt install -y git vim zsh curl exuberant-ctags tmux python3 zathura python3-pip openssh-server clang fail2ban mosh xsel
 # ssh-keygen
 mkdir -p ~/git
 # git clone git@github.com:dylanjwolff/dotfiles.git ~/git/dotfiles
